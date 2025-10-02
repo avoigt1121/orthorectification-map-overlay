@@ -1,0 +1,4 @@
+rasterio
+numpy
+requests>=2.28.0
+matplotlib
