@@ -5,7 +5,7 @@ matplotlib.use('Agg')  # Use non-GUI backend
 import matplotlib.pyplot as plt
 import os
 #Loads the Bands in Python
-data_filepath = '/Users/annivoigt/Documents/data/'
+data_filepath = '/tree/data/'
 
 
 b4_files = [os.path.join(data_filepath, f) 
@@ -56,4 +56,3 @@ for i in b4_files:
     plt.savefig(f"data/ndvi_plot_{j-1}.png", dpi=300, bbox_inches='tight')
     plt.close()  # Close the figure to free memory
     print(f"NDVI plot saved as data/ndvi_plot_{j-1}.png")
-    

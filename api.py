@@ -4,6 +4,8 @@ Simple USGS API for Vegetation Data
 
 Get your M2M token at: https://m2m.cr.usgs.gov/
 Navigate to: Machine to Machine > Access Token > Generate Token
+
+Access takes a long time and the gov is shutdown, so we just downloaded
 """
 
 import requests

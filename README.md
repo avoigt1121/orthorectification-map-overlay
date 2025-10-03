@@ -16,8 +16,9 @@ Simple Python scripts for downloading and processing Landsat satellite data to c
    ```
 
 2. **Get Landsat data:**
+Wrote an API, but access takes a long time and the gov is shutdown, so we just downloaded
    - Download from [USGS EarthExplorer](https://earthexplorer.usgs.gov/)
-   - Extract `.tar` files to `/Users/annivoigt/Documents/data/`
+   - Extract `.tar` files to `/tree/data/`
    - Look for files ending in `B4.TIF` (red) and `B5.TIF` (near-infrared)
 
 3. **Run vegetation analysis:**
